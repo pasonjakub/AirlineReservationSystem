@@ -84,7 +84,7 @@
   * Int getChoice() - reading the user choice for the options
   * void setChoice(int choice) - setting the user choice
 
-##7. Resources
+## 7. Resources
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the project the following resources are used:
 - seat_callback.txt - file in which saved are the seats which are already taken
@@ -96,6 +96,6 @@
   - PASSENGER
   - TICKET
 
-##8. Future development
+## 8. Future development
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first thing could be the improvement displaying the flights to filter it by departure/destination place or date. Another thing could be the deletion of chosen flight by admin, however it will require some kind of notification for passengers who have already bought the ticket for this flight.
