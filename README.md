@@ -1,9 +1,9 @@
 # AirlineReservationSystem-Cpp
 
-##1. Project description
+## 1. Project description
   The aim of this project was to familiarize with object oriented programming and to create more complex programs. The program contains many features such as logging in, booking a flight ticket, adding new flights, deleting accounts and many more. SQLite3 database was used in order to save all the changes made while the program was running.
 
-##2. User manual
+## 2. User manual
 
   The program does not require performing any additional actions than running it. After compilation the login menu will pop up. By simply pressing the number and confirming it by pressing **Enter** we can go to the chosen option.
 
