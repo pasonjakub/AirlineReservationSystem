@@ -1,39 +1,44 @@
 # AirlineReservationSystem-Cpp
 
 ## 1. Project description
-  The aim of this project was to familiarize with object oriented programming and to create more complex programs. The program contains many features such as logging in, booking a flight ticket, adding new flights, deleting accounts and many more. SQLite3 database was used in order to save all the changes made while the program was running.
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The aim of this project was to familiarize with object oriented programming and to create more complex programs. The program contains many features such as logging in, booking a flight ticket, adding new flights, deleting accounts and many more. SQLite3 database was used in order to save all the changes made while the program was running.
 
 ## 2. User manual
 
-  The program does not require performing any additional actions than running it. After compilation the login menu will pop up. By simply pressing the number and confirming it by pressing **Enter** we can go to the chosen option.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The program does not require performing any additional actions than running it. After compilation the login menu will pop up. By simply pressing the number and confirming it by pressing **Enter** we can go to the chosen option.
 
 
   Fig. 1 Login menu
 
 
-  We can choose to login as a user, admin or create a new user account. User and admin menu requires providing email and password. During registration we have to provide name, surname, email and password.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can choose to login as a user, admin or create a new user account. User and admin menu requires providing email and password. During registration we have to provide name, surname, email and password.
   
   
   Fig. 2 Logging in
   
-  After logging in we can again choose where the program should take us. All of the options are displayed and any of them can be chosen. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After logging in we can again choose where the program should take us. All of the options are displayed and any of them can be chosen. 
   
 ## 3. Compilation
-  Program was written with the use of CodeBlocks IDE alongside with C++ standard compiler. However if the user wants to modify its structure they have to install SQLite3 and add it to their compilers.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Program was written with the use of CodeBlocks IDE alongside with C++ standard compiler. However if the user wants to modify its structure they have to install SQLite3 and add it to their compilers.
 
 ## 4. Source files
-  Program was divided into cpp and header files so as it will be more pleasant to read:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Program was divided into cpp and header files so as it will be more pleasant to read:
 * main.cpp - creating object User_Interface
 * airline.cpp, airline.h - class Airline alongside with methods which allows us to read and write database which was created earlier
 * user_interface.cpp, user_interface.h - class User_Interface alongside with methods which were used to create user friendly interface
 * sqlite3.h - it was added alongside with library sqlite3.a to this project
 
 ## 5. Dependencies
-  The following external libraries are used in the project:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following external libraries are used in the project:
 * SQLite – database SQL engine. Website: https://sqlite.org/
 
 ## 6. Class description
-  In the project the following classes were created:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the project the following classes were created:
 - Airline
   * Airline() - constructor which establishes the connection with database,
   * void show_flights() - display all flights
@@ -80,7 +85,8 @@
   * void setChoice(int choice) - setting the user choice
 
 ##7. Resources
-In the project the following resources are used:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the project the following resources are used:
 - seat_callback.txt - file in which saved are the seats which are already taken
   - first column - rows, second column - columns, they are read in pairs inside of the program
 - database.db - database which is used for this project
