@@ -1,9 +1,9 @@
 # AirlineReservationSystem-Cpp
 
-**1. Project description**
+##1. Project description
   The aim of this project was to familiarize with object oriented programming and to create more complex programs. The program contains many features such as logging in, booking a flight ticket, adding new flights, deleting accounts and many more. SQLite3 database was used in order to save all the changes made while the program was running.
 
-**2. User manual**
+##2. User manual
 
   The program does not require performing any additional actions than running it. After compilation the login menu will pop up. By simply pressing the number and confirming it by pressing **Enter** we can go to the chosen option.
 
@@ -18,21 +18,21 @@
   
   After logging in we can again choose where the program should take us. All of the options are displayed and any of them can be chosen. 
   
-  **3. Compilation**
+  ##3. Compilation
   Program was written with the use of CodeBlocks IDE alongside with C++ standard compiler. However if the user wants to modify its structure they have to install SQLite3 and add it to their compilers.
 
-  **4. Source files**
+  ##4. Source files
   Program was divided into cpp and header files so as it will be more pleasant to read:
 * main.cpp - creating object User_Interface
 * airline.cpp, airline.h - class Airline alongside with methods which allows us to read and write database which was created earlier
 * user_interface.cpp, user_interface.h - class User_Interface alongside with methods which were used to create user friendly interface
 * sqlite3.h - it was added alongside with library sqlite3.a to this project
 
-  **5. Dependencies**
+  ##5. Dependencies
   The following external libraries are used in the project:
 * SQLite – database SQL engine. Website: https://sqlite.org/
 
-  **6. Class description**
+  ##6. Class description
   In the project the following classes were created:
 - Airline
   * Airline() - constructor which establishes the connection with database,
