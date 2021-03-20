@@ -91,4 +91,5 @@ In the project the following resources are used:
   - TICKET
 
 ##8. Future development
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first thing could be the improvement displaying the flights to filter it by departure/destination place or date. Another thing could be the deletion of chosen flight by admin, however it will require some kind of notification for passengers who have already bought the ticket for this flight.
