@@ -18,21 +18,21 @@
   
   After logging in we can again choose where the program should take us. All of the options are displayed and any of them can be chosen. 
   
-  ##3. Compilation
+  ## 3. Compilation
   Program was written with the use of CodeBlocks IDE alongside with C++ standard compiler. However if the user wants to modify its structure they have to install SQLite3 and add it to their compilers.
 
-  ##4. Source files
+  ## 4. Source files
   Program was divided into cpp and header files so as it will be more pleasant to read:
 * main.cpp - creating object User_Interface
 * airline.cpp, airline.h - class Airline alongside with methods which allows us to read and write database which was created earlier
 * user_interface.cpp, user_interface.h - class User_Interface alongside with methods which were used to create user friendly interface
 * sqlite3.h - it was added alongside with library sqlite3.a to this project
 
-  ##5. Dependencies
+  ## 5. Dependencies
   The following external libraries are used in the project:
 * SQLite – database SQL engine. Website: https://sqlite.org/
 
-  ##6. Class description
+  ## 6. Class description
   In the project the following classes were created:
 - Airline
   * Airline() - constructor which establishes the connection with database,
