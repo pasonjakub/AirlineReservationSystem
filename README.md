@@ -78,3 +78,17 @@
   * void setWorking(bool working) - value set to false if user terminates program
   * Int getChoice() - reading the user choice for the options
   * void setChoice(int choice) - setting the user choice
+
+##7. Resources
+In the project the following resources are used:
+- seat_callback.txt - file in which saved are the seats which are already taken
+  - first column - rows, second column - columns, they are read in pairs inside of the program
+- database.db - database which is used for this project
+  - AIRPORT
+  - CONTROLLER
+  - FLIGHT
+  - PASSENGER
+  - TICKET
+
+##8. Future development
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first thing could be the improvement displaying the flights to filter it by departure/destination place or date. Another thing could be the deletion of chosen flight by admin, however it will require some kind of notification for passengers who have already bought the ticket for this flight.
