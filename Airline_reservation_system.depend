@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1609673869 source:c:\users\kuba\desktop\airline_reservation_system\main.cpp
+	<iostream>
+	"airline.h"
+
+1609672645 c:\users\kuba\desktop\airline_reservation_system\airline.h
+	<iostream>
+	"sqlite3.h"
+	<fstream>
+
+1597408968 c:\users\kuba\desktop\airline_reservation_system\sqlite3.h
+	<stdarg.h>
+
+1609673205 source:c:\users\kuba\desktop\airline_reservation_system\airline.cpp
+	"airline.h"
+
+1610068052 source:c:\users\kuba\desktop\airline_reservation_system_laptop\airline_reservation_system\airline.cpp
+	"airline.h"
+
+1610105592 c:\users\kuba\desktop\airline_reservation_system_laptop\airline_reservation_system\airline.h
+	<iostream>
+	"sqlite3.h"
+	<fstream>
+	"string"
+
+1597408968 c:\users\kuba\desktop\airline_reservation_system_laptop\airline_reservation_system\sqlite3.h
+	<stdarg.h>
+
+1610061004 source:c:\users\kuba\desktop\airline_reservation_system_laptop\airline_reservation_system\main.cpp
+	<iostream>
+	"gui.h"
+
+1610068438 source:c:\users\kuba\desktop\airline_reservation_system_laptop\airline_reservation_system\gui.cpp
+	"gui.h"
+
+1610067305 c:\users\kuba\desktop\airline_reservation_system_laptop\airline_reservation_system\gui.h
+	<iostream>
+	<string>
+	"sqlite3.h"
+	"airline.h"
+
+1611321722 source:c:\users\kuba\desktop\oopl_project\airline_reservation_system\gui.cpp
+	"gui.h"
+
+1611332373 c:\users\kuba\desktop\oopl_project\airline_reservation_system\gui.h
+	<iostream>
+	<string>
+	"sqlite3.h"
+	"airline.h"
+
+1597408968 c:\users\kuba\desktop\oopl_project\airline_reservation_system\sqlite3.h
+	<stdarg.h>
+
+1611333299 c:\users\kuba\desktop\oopl_project\airline_reservation_system\airline.h
+	<iostream>
+	"sqlite3.h"
+	<fstream>
+	"string"
+	<vector>
+
+1611332509 source:c:\users\kuba\desktop\oopl_project\airline_reservation_system\main.cpp
+	<iostream>
+	"gui.h"
+
+1611321627 source:c:\users\kuba\desktop\oopl_project\airline_reservation_system\airline.cpp
+	"airline.h"
+
+1611333299 source:c:\users\kuba\desktop\nauka\studia\5th term\oopl\project\airline_reservation_system\airline.cpp
+	"airline.h"
+
+1611333779 c:\users\kuba\desktop\nauka\studia\5th term\oopl\project\airline_reservation_system\airline.h
+	<iostream>
+	"sqlite3.h"
+	<fstream>
+	"string"
+	<vector>
+
+1597408968 c:\users\kuba\desktop\nauka\studia\5th term\oopl\project\airline_reservation_system\sqlite3.h
+	<stdarg.h>
+
+1611333357 source:c:\users\kuba\desktop\nauka\studia\5th term\oopl\project\airline_reservation_system\gui.cpp
+	"gui.h"
+
+1611334810 c:\users\kuba\desktop\nauka\studia\5th term\oopl\project\airline_reservation_system\gui.h
+	<iostream>
+	<string>
+	"sqlite3.h"
+	"airline.h"
+
+1611332509 source:c:\users\kuba\desktop\nauka\studia\5th term\oopl\project\airline_reservation_system\main.cpp
+	<iostream>
+	"gui.h"
+
