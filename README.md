@@ -32,7 +32,7 @@
   The following external libraries are used in the project:
 * SQLite – database SQL engine. Website: https://sqlite.org/
 
-  ## 6. Class description
+## 6. Class description
   In the project the following classes were created:
 - Airline
   * Airline() - constructor which establishes the connection with database,
