@@ -35,46 +35,46 @@
   **6. Class description**
   In the project the following classes were created:
 - Airline
-* Airline() - constructor which establishes the connection with database,
-* void show_flights() - display all flights
-* void get_seats(string flight_id) - save positions of taken seats to the .txt file
-* void show_seats(string flight_id) - display plane seats
-* void show_customer_tickets() - show all tickets for specific customer
-* void show_all_tickets() - show all tickets
-* void add_reservation(string flight_id, int row, int col) - adding reservation for specific customer
-* bool check_availbility(string flight_id, int row, int col) - return true if seat is empty
-* void add_flight(string departure_airport, string destination_airport, string departure_datetime, string destination_datetime, string row, string col, double base_price) - add a flight
-* void cancel_reservation(string ticket_id) - cancel the reservation
-* bool user_login(string email, string password) - true if logged in
-* bool admin_login(string email, string password) - true if logged in
-* bool exists_flight(string flight_id) - true if flight with specific id exists
-* string getCurrent_log() - returns currently logged user/admin
-* void add_account(string name, string surname, string email, string password) - create a new account
-* void delete_account() - delete account of currently logged person
+  * Airline() - constructor which establishes the connection with database,
+  * void show_flights() - display all flights
+  * void get_seats(string flight_id) - save positions of taken seats to the .txt file
+  * void show_seats(string flight_id) - display plane seats
+  * void show_customer_tickets() - show all tickets for specific customer
+  * void show_all_tickets() - show all tickets
+  * void add_reservation(string flight_id, int row, int col) - adding reservation for specific customer
+  * bool check_availbility(string flight_id, int row, int col) - return true if seat is empty
+  * void add_flight(string departure_airport, string destination_airport, string departure_datetime, string destination_datetime, string row, string col, double base_price) - add a flight
+  * void cancel_reservation(string ticket_id) - cancel the reservation
+  * bool user_login(string email, string password) - true if logged in
+  * bool admin_login(string email, string password) - true if logged in
+  * bool exists_flight(string flight_id) - true if flight with specific id exists
+  * string getCurrent_log() - returns currently logged user/admin
+  * void add_account(string name, string surname, string email, string password) - create a new account
+  * void delete_account() - delete account of currently logged person
 
 - User_Interface
-* User_Interface() - constructor which uses methods declared below
-* String input_string_check(string input) - string value check
-* Int input_int_check(int input) - int value check
-* Double input_doubl_check(double input) - double value check
-* void add_account() - create a new account
-* void delete_account() - delete the account
-* void login_menu() - login menu
-* void user_main_menu() - menu after user logged in
-* void admin_main_menu() - menu after admin logged in
-* void flights_menu() - display flights with options
-* void user_tickets_menu() - display user tickets with options
-* void admin_tickets_menu() - display all tickets with options
-* void cancel_reservation() - cancel reservation of currently logged user
-* void create_reservation(string flight_id) - create reservation for specific flight
-* void create_flight() - create a new flight with specific values
-* void user_chosen_flight() - display seats for chosen flight alongside with options
-* void admin_chosen_flight() - display seats for chosen flight alongside with options
-* Bool getUser() - return true if user logged in
-* void setUser(bool user) - change if user logs in/off
-* Bool getAdmin() - return true if admin logged in
-* void setAdmin(bool admin) - change if admin logs in/off
-* Bool getWorking() - value on which while loop operates until the program is terminated
-* void setWorking(bool working) - value set to false if user terminates program
-* Int getChoice() - reading the user choice for the options
-* void setChoice(int choice) - setting the user choice
+  * User_Interface() - constructor which uses methods declared below
+  * String input_string_check(string input) - string value check
+  * Int input_int_check(int input) - int value check
+  * Double input_doubl_check(double input) - double value check
+  * void add_account() - create a new account
+  * void delete_account() - delete the account
+  * void login_menu() - login menu
+  * void user_main_menu() - menu after user logged in
+  * void admin_main_menu() - menu after admin logged in
+  * void flights_menu() - display flights with options
+  * void user_tickets_menu() - display user tickets with options
+  * void admin_tickets_menu() - display all tickets with options
+  * void cancel_reservation() - cancel reservation of currently logged user
+  * void create_reservation(string flight_id) - create reservation for specific flight
+  * void create_flight() - create a new flight with specific values
+  * void user_chosen_flight() - display seats for chosen flight alongside with options
+  * void admin_chosen_flight() - display seats for chosen flight alongside with options
+  * Bool getUser() - return true if user logged in
+  * void setUser(bool user) - change if user logs in/off
+  * Bool getAdmin() - return true if admin logged in
+  * void setAdmin(bool admin) - change if admin logs in/off
+  * Bool getWorking() - value on which while loop operates until the program is terminated
+  * void setWorking(bool working) - value set to false if user terminates program
+  * Int getChoice() - reading the user choice for the options
+  * void setChoice(int choice) - setting the user choice
