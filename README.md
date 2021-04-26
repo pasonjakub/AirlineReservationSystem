@@ -1,4 +1,4 @@
-# AirlineReservationSystem-Cpp
+# AirlineReservationSystem
 
 ## 1. Project description
   
@@ -8,12 +8,14 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The program does not require performing any additional actions than running it. After compilation the login menu will pop up. By simply pressing the number and confirming it by pressing **Enter** we can go to the chosen option.
 
-
+![loginMenu](https://user-images.githubusercontent.com/45394303/112724834-72eaae80-8f15-11eb-8572-cc74a68871e8.PNG)
+  
   Fig. 1 Login menu
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can choose to login as a user, admin or create a new user account. User and admin menu requires providing email and password. During registration we have to provide name, surname, email and password.
   
+  ![logginIn](https://user-images.githubusercontent.com/45394303/112724810-5c445780-8f15-11eb-8b66-d05cf70d2d89.PNG)
   
   Fig. 2 Logging in
   
