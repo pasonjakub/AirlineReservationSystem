@@ -80,7 +80,7 @@ void Airline::show_seats(string flight_id)      //showing where is higher price,
 
     for (int i=0; i<rows; i++) {
         for (int j = 0; j < cols; j++)
-            m_seat_number[i][j] = " ";  //Tu lubi sie wypierdalac :)))))))
+            m_seat_number[i][j] = " ";
     }
     ifstream my_file("seat_callback.txt");
     string a, b;
